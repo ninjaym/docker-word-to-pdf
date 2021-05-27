@@ -1,0 +1,4 @@
+.idea
+*.iml
+word2pdf/target
+*.log
