@@ -18,4 +18,6 @@ ADD ./word2pdf/target/*.jar /opt/${APP_NAME}/
 COPY entrypoint.sh /sbin/entrypoint.sh
 RUN chmod 755 /sbin/entrypoint.sh
 
+EXPOSE 1993
+
 ENTRYPOINT ["/sbin/entrypoint.sh"]
